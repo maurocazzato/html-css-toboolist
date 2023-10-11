@@ -3,11 +3,9 @@ body{
 }
 
 #testa{
-height: 80px;
 background-color: white;
 text-align: left;
-padding-left: 15px;
-padding-top: 15px;
+padding: 10px 10px 10px 10px;
 
 }
 #logo1{
@@ -17,6 +15,8 @@ padding-top: 15px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-left: 5px;
+    line-height: 5px;
        
 }
 
@@ -85,6 +85,7 @@ div{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+/* style colori */
 .blu{
     background-color: rgb(9, 164, 242);
     color: white;
@@ -92,6 +93,7 @@ div{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 2px 2px 2px;
+    margin-left: 4px;
     
 }
 .viola{
@@ -101,7 +103,7 @@ div{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 2px 2px 2px;
-    
+    margin-left: 4px;
 }
 .verde{
     background-color: rgb(81, 133, 94);
@@ -110,7 +112,7 @@ div{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 2px 2px 2px;
-    
+    margin-left: 4px;
 }
 .arancione{
     background-color: rgb(244, 159, 40);
@@ -119,7 +121,7 @@ div{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 2px 2px 2px;
-    
+    margin-left: 4px;
 }
 .violetto{
     background-color: rgb(244, 40, 210);
@@ -128,7 +130,7 @@ div{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 2px 2px 2px;
-    
+    margin-left: 4px;
 }
 .verdino{
     background-color: rgb(113, 232, 163);
@@ -137,17 +139,21 @@ div{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 2px 2px 2px;
-    
+    margin-left: 4px;
 }
+/* segno v verde */
 .v{
     background-color: white;
     color:rgb(113, 232, 163);
     border-radius: 50%;
     border: solid rgb(113, 232, 163) 1px;
+    margin-right: 4px;
 }
+/* segno x rossa */
 .r{
     background-color: white;
     color:rgb(246, 0, 0);
     border-radius: 50%;
     border: solid rgb(246, 0, 0) 1px;
+    margin-right: 4px;
 }
